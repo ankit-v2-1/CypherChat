@@ -12,8 +12,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
+[![Twitter][twitter-shield]][twitter-url]
 
 
 <!-- PROJECT LOGO -->
@@ -55,4 +54,7 @@
 [license-url]: https://github.com/ankit-v2-1/CypherChat/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/github_username
+
+[twitter-shield]: https://img.shields.io/twitter/follow/ankit_v2_1?style=for-the-badge&color=09f&labelColor=black.svg&logo=twitter&label=@ankit_v2_1
+[twitter-url]: https://twitter.com/ankit_v2_1
 [product-screenshot]: images/screenshot.png
