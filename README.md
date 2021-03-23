@@ -41,16 +41,16 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ankit-v2-1/CypherChat.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ankit-v2-1/CypherChat.svg?style=flat-square
 [contributors-url]: https://github.com/ankit-v2-1/CypherChat/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ankit-v2-1/CypherChat.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ankit-v2-1/CypherChat.svg?style=flat-square
 [forks-url]: https://github.com/ankit-v2-1/CypherChat/network/members
-[stars-shield]: https://img.shields.io/github/stars/ankit-v2-1/CypherChat.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/ankit-v2-1/CypherChat.svg?style=flat-square
 [stars-url]: https://github.com/ankit-v2-1/CypherChat/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ankit-v2-1/CypherChat.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/ankit-v2-1/CypherChat.svg?style=flat-square
 [issues-url]: https://github.com/ankit-v2-1/CypherChat/issues
-[license-shield]: https://img.shields.io/github/license/ankit-v2-1/CypherChat.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/ankit-v2-1/CypherChat.svg?style=flat-square
 [license-url]: https://github.com/ankit-v2-1/CypherChat/blob/master/LICENSE.txt
-[twitter-shield]: https://img.shields.io/twitter/follow/ankit_v2_1?style=for-the-badge&color=09f&labelColor=black.svg&logo=twitter&label=@ankit_v2_1
+[twitter-shield]: https://img.shields.io/twitter/follow/ankit_v2_1?style=flat-square&color=09f&labelColor=black.svg&logo=twitter&label=@ankit_v2_1
 [twitter-url]: https://twitter.com/ankit_v2_1
 [product-screenshot]: images/screenshot.png
