@@ -39,7 +39,7 @@ c, addr = so.accept()
 
 print("[+] connected to ", addr)
 
-password = input(colored("Enter the password: ", 'red'))
+password = input(colored("Enter the key/password: ", 'red'))
 
 hash = SHA256.new()
 hash.update(password.encode('utf-8'))
