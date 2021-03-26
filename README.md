@@ -1,3 +1,5 @@
+
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -12,6 +14,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![Twitter][twitter-shield]][twitter-url]
+
 
 
 <!-- PROJECT LOGO -->
@@ -36,6 +39,140 @@
     <a href="https://github.com/ankit-v2-1/CypherChat/issues">Request Feature</a>
   </p>
 </p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#dependencies">Dependencies</a></li>
+        <li><a href="#executing-program">Executing program</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#authors">Authors</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+CypherChat is a simple cryptography project in which messages are encrypted using AES. AES is an iterative rather than Feistel cipher. It is based on ‘substitution–permutation network’. It comprises of a series of linked operations, some of which involve replacing inputs by specific outputs (substitutions) and others involve shuffling bits around (permutations).
+
+Interestingly, AES performs all its computations on bytes rather than bits. Hence, AES treats the 128 bits of a plaintext block as 16 bytes. These 16 bytes are arranged in four columns and four rows for processing as a matrix −
+
+Unlike DES, the number of rounds in AES is variable and depends on the length of the key. AES uses 10 rounds for 128-bit keys, 12 rounds for 192-bit keys and 14 rounds for 256-bit keys. Each of these rounds uses a different 128-bit round key, which is calculated from the original AES key.
+
+The features of AES are as follows −
+
+ * Symmetric key symmetric block cipher
+ * 128-bit data, 128/192/256-bit keys
+ * Stronger and faster than Triple-DES
+ * Provide full specification and design details
+ * Software implementable in C and Java
+
+### Built With
+
+* [Python](https://www.python.org)
+* [Socket](https://pypi.org/project/sockets/)
+* [Pycrypto](https://pypi.org/project/pycrypto/)
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Dependencies
+
+This is an example of how to list things you need to use the software and how to install them.
+* [Socket](https://pypi.org/project/sockets/)
+  ```sh
+  pip install sockets
+  ```
+* [Pycrypto](https://pypi.org/project/pycrypto/)
+   ```sh
+  pip install pycrypto
+  ```
+* [Termcolor](https://pypi.org/project/termcolor/)
+   ```sh
+  pip install termcolor
+  ```
+
+### Executing program
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ankit-v2-1/ChypherChat.git
+   ```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/ankit-v2-1/ChypherChat/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Authors
+Contributors names and contact info:<br>
+[@ankit-v2-1](https://github.com/ankit-v2-1)<br>
+
+<a href="" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linked in"/></a>
+<a href="https://twitter.com/ankit_v2_1" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter"/></a>
+
+Project Link: [CypherChat](https://github.com/ankit-v2-1/CypherChat)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [Prof. Alwyn Roshan Pais](https://cse.nitk.ac.in/faculty/alwyn-roshan-pais)
+
+
+
 
 
 
