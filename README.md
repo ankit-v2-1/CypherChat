@@ -128,16 +128,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
-<!-- CONTACT -->
-## Authors
-Contributors names and contact info:<br>
-[@ankit-v2-1](https://github.com/ankit-v2-1)<br>
-
-<a href="" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linked in"/></a>
-<a href="https://twitter.com/ankit_v2_1" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter"/></a>
-
-Project Link: [CypherChat](https://github.com/ankit-v2-1/CypherChat)
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
