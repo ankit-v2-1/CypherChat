@@ -28,7 +28,7 @@ def decrypt(info):
 
 so = socket.socket()
 host = socket.gethostname()
-port = 12345
+port = 8000
 so.bind((host, port))
 print(colored("[+] server is live..", "green"))
 
@@ -50,7 +50,7 @@ while True:
     message = input('send: ')
     message = encrypt(message)
     c.send(message)
-    print(colored("typing..", 'green'))
+    print(colored("listening..", 'green'))
     message = c.recv(1024)
     message = decrypt(message)
     print("rev: ", message)

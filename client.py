@@ -28,7 +28,7 @@ def decrypt(info):
 
 so = socket.socket()
 host = socket.gethostname()
-port = 12345
+port = 8000
 
 so.connect((host, port))
 print(colored("[+] connected to the server..", 'green'))
@@ -40,7 +40,7 @@ hkey = hash_obj.digest()
 
 
 while True:
-    print(colored("typing..", 'green'))
+    print(colored("listening..", 'green'))
     message = so.recv(1024)
     message = decrypt(message)
     print("rec: ", message)
