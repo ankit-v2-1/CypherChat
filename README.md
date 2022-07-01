@@ -20,23 +20,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/ankit-v2-1/CypherChat">
+  <a href="https://github.com/ankit-v2-1/secureChat">
     <img src="images/logo.png" alt="Logo" width="150" height="150">
   </a>
 
-  <h3 align="center">CypherChat</h3>
+  <h3 align="center">SecureChat</h3>
 
   <p align="center">
     Cryptography project in which messages are encrypted using AES!
     <br />
-    <a href="https://github.com/ankit-v2-1/CypherChat"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ankit-v2-1/secureChat"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ankit-v2-1/CypherChat">View Demo</a>
+    <a href="https://github.com/ankit-v2-1/secureChat">View Demo</a>
     ·
-    <a href="https://github.com/ankit-v2-1/CypherChat/issues">Report Bug</a>
+    <a href="https://github.com/ankit-v2-1/secureChat/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ankit-v2-1/CypherChat/issues">Request Feature</a>
+    <a href="https://github.com/ankit-v2-1/secureChat/issues">Request Feature</a>
   </p>
 </p>
 
@@ -46,7 +46,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-CypherChat is a simple cryptography project in which messages are encrypted using AES. AES is an iterative rather than Feistel cipher. It is based on ‘substitution–permutation network’. It comprises of a series of linked operations, some of which involve replacing inputs by specific outputs (substitutions) and others involve shuffling bits around (permutations).
+SecureChat is a simple cryptography project in which messages are encrypted using AES. AES is an iterative rather than Feistel cipher. It is based on ‘substitution–permutation network’. It comprises of a series of linked operations, some of which involve replacing inputs by specific outputs (substitutions) and others involve shuffling bits around (permutations).
 
 AES performs all its computations on bytes rather than bits. Hence, AES treats the 128 bits of a plaintext block as 16 bytes. These 16 bytes are arranged in four columns and four rows for processing as a matrix −
 
@@ -58,39 +58,36 @@ The features of AES are as follows −
  * Provide full specification and design details
  * Software implementable in C and Java
 
-### Built With
-
-* [Python](https://www.python.org)
-* [Socket](https://pypi.org/project/sockets/)
-* [Pycrypto](https://pypi.org/project/pycrypto/)
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
+  ```sh
+   $ git clone https://github.com/ankit-v2-1/secureChat.git
+   $ cd secureChat
+   ```
 
 ### Dependencies
+Creating Virtual Environment:
+```
+$ python3 -m pip install --user virtualenv
+$ python3 -m venv env
+$ source env/bin/activate
+```
+Installing Dependencies:
+```
+$ pip3 install -r requirements.txt
+```
 
-This is an example of how to list things you need to use the software and how to install them.
-* [Socket](https://pypi.org/project/sockets/)
-  ```sh
-  pip install sockets
-  ```
-* [Pycrypto](https://pypi.org/project/pycrypto/)
-   ```sh
-  pip install pycrypto
-  ```
-* [Termcolor](https://pypi.org/project/termcolor/)
-   ```sh
-  pip install termcolor
-  ```
+```
+Running server
+$ python3 server.py
 
-### Executing program
+Running client
+$python3 client.py
+```
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/ankit-v2-1/ChypherChat.git
-   ```
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -104,7 +101,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/ankit-v2-1/ChypherChat/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/ankit-v2-1/secureChat/issues) for a list of proposed features (and known issues).
 
 
 
@@ -131,9 +128,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
 
-* [Prof. Alwyn Roshan Pais](https://cse.nitk.ac.in/faculty/alwyn-roshan-pais)
 
 
 
